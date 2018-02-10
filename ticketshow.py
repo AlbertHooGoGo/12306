@@ -16,10 +16,10 @@ Options:
 	--trains=<trains>	Which train needs to be attentioned!
 
 Example:
-	ticketshow 上海 北京 2018-02-14
-	ticketshow -dg 青岛 上海 2018-02-14 --days=3
-	ticketshow -dg 青岛 上海 2018-02-14 --trains=G222
-	ticketshow -dg 青岛 上海 2018-02-14 --days=3 --trains=G222
+	ticketshow.py 上海 北京 2018-02-14
+	ticketshow.py 青岛 上海 2018-02-14 --days=3
+	ticketshow.py 青岛 上海 2018-02-14 --trains=G222
+	ticketshow.py 青岛 上海 2018-02-14 --days=3 --trains=G222
 """
 
 from docopt import docopt
